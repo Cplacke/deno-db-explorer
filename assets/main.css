@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Line Beam'; /* Name your font */
+    src: url('/assets/font/Linebeam.ttf') format('truetype'); /* Path to your font file */
+}
+
+.bg-dark-2 {
+    background-color: #292f33 !important;
+}
+
+.border-dark-3 {
+    border-color: #5e6e78;;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.line-beam {
+    font-family: 'Line Beam';
+}
+
+td, th {
+    text-wrap: nowrap;
+    max-width: 250px;
+    border-width: 1px;
+}
+
+td .scrollable {
+    width: 100%;
+    max-height: 20px;
+    overflow: scroll;
+    display: inline-block;
+}
+.resize {
+    resize: both;
+}
